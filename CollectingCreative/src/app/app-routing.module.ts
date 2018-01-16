@@ -8,10 +8,10 @@ import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 
 const routes: Routes =[
-  {path: '', redirectTo: '/home', pathMatch: 'full'},
-  {path: '/locations', component: LocationsComponent},
-  {path: '/allLocations', component: LocationsAllComponent},
-  {path: '/home', component: HomeComponent}
+  {path: '', redirectTo: 'home', pathMatch: 'full'},
+  {path: 'locations', component: LocationsComponent},
+  {path: 'allLocations', component: LocationsAllComponent},
+  {path: 'home', component: HomeComponent}
  // {path: '', component:''},
   //{path: '', component:''},
   //{path: '', component:''}
