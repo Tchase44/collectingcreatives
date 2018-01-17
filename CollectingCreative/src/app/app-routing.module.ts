@@ -10,7 +10,7 @@ import { LocationsAllComponent } from './locations-all/locations-all.component';
 import { HomeComponent } from './home/home.component';
 import { AppearancesComponent } from './appearances/appearances.component';
 import { VideosComponent } from './videos/videos.component';
-import { VideolistComponent } from './Videos/videolist/videolist.component';
+import { VideoListComponent } from './Videos/video-list/video-list.component';
 
 
 const routes: Routes = [
@@ -21,7 +21,7 @@ const routes: Routes = [
   { path: 'appearances', component: AppearancesComponent },
   // {path: 'allappearances', component:},
   { path: 'videos', component: VideosComponent },
-  { path: 'allvideos', component: VideolistComponent }
+  { path: 'allvideos', component: VideoListComponent }
 ];
 
 

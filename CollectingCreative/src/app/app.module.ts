@@ -12,7 +12,7 @@ import { HomeComponent } from './home/home.component';
 import { PhotoComponent } from './photo/photo.component';
 import { PhotoEditComponent } from './photo-edit/photo-edit.component';
 import { VideosComponent } from './videos/videos.component';
-import { VideolistComponent } from './Videos/videolist/videolist.component';
+import { VideoListComponent } from './Videos/video-list/video-list.component';
 import { VideoItemComponent } from './Videos/video-item/video-item.component';
 import { VideoEditComponent } from './Videos/video-edit/video-edit.component';
 import { HeaderComponent } from './header/header.component';
@@ -29,7 +29,7 @@ import { Browser } from 'selenium-webdriver';
     PhotoComponent,
     PhotoEditComponent,
     VideosComponent,
-    VideolistComponent,
+    VideoListComponent,
     VideoItemComponent,
     VideoEditComponent,
     HeaderComponent,
