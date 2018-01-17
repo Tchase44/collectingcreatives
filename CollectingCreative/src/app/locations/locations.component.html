@@ -1,11 +1,15 @@
-<h1>Locations</h1>
-<a class="allLink" routerLink="/allLocations">[all]</a>
+<div>
+    <h1><a routerLink="/allLocations" role="button">All Locations</a></h1>
+    <h1>Locations</h1>
+</div>
 
 <div class="photo-container" *ngFor="let pic of photos">
-    <div class="flip-container" >
+    <div class="flip-container">
         <div class="flipper">
             <img class="front" src="{{pic.pic}}" alt="picture" />
-            <div class="back"> <p>details details</p> </div>
+            <div class="back">
+                <p>details details</p>
+            </div>
         </div>
     </div>
 </div>

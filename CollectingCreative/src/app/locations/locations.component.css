@@ -10,9 +10,9 @@ h1{
 	left: 37px;
 }
 .photo-container{
-	width: 95%;
+	width: 100%;
 	box-sizing: border-box;
-	margin: 0 auto 40px auto;
+	margin: 0 auto 5px auto;
 }
 
 /* This is for the flip animations. */
@@ -44,7 +44,7 @@ h1{
 }
 /* flip speed goes here */
 .flipper {
-	transition: 0.6s;
+	transition: 1.5s;
 	transform-style: preserve-3d;
 
 	position: relative;
