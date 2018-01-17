@@ -18,7 +18,6 @@ import { VideoEditComponent } from './Videos/video-edit/video-edit.component';
 import { HeaderComponent } from './header/header.component';
 import { AppearancesComponent } from './appearances/appearances.component';
 import { Browser } from 'selenium-webdriver';
-// ng g module app-routing --flat --module=app
 
 
 @NgModule({
