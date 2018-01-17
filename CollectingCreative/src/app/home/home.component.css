@@ -1,5 +1,6 @@
 .linkContainer{
-    margin: 0 auto 0 auto;
+    width: 100%;
+    margin: 31vh auto 0 auto;
     display: grid;
     grid-gap: 5px;
     grid-template-columns: 1fr 1fr 1fr;
@@ -13,10 +14,12 @@
 
 @media screen and (max-width:915px){
     .linkContainer{
+        margin: 0 auto;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr 1fr;
     }
     .links{
-        margin:0 auto;
+        margin: 0 auto;
+        width: 100%;
     }
 }
