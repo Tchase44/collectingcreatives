@@ -1,7 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
+// import { BrowserAnimationModule } from '@angular/platform-browser/animations';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { BrowserAnimationModule } from '@angular/platform-browser/animations';
 
 import { AppComponent } from './app.component';
 import { LocationsComponent } from './locations/locations.component';
@@ -39,7 +39,7 @@ import { Browser } from 'selenium-webdriver';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationModule
+    // BrowserAnimationModule
   ],
   providers: [],
   bootstrap: [AppComponent]
