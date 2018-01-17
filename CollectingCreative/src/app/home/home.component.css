@@ -1,5 +1,22 @@
-.links {
+.linkContainer{
+    margin: 0 auto 0 auto;
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.links{
     font-size: 55px;
-    padding: 10px;
-    display: inline-block;
+    text-align: center;
+    padding: 30px;
+    /* display: inline-block; */
+}
+
+@media screen and (max-width:915px){
+    .linkContainer{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+    .links{
+        margin:0 auto;
+    }
 }
