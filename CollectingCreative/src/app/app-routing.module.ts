@@ -20,7 +20,7 @@ const routes: Routes = [
   {path: 'allLocations', component: LocationsAllComponent},
   {path: 'appearances', component: AppearancesComponent},
   // {path: 'allappearances', component:},
-  {path: 'videos', component: VideosComponent}
+  {path: 'videos', component: VideosComponent},
   {path: 'allvideos', component: VideolistComponent}
 ];
 
