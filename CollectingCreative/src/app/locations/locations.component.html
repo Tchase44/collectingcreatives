@@ -1,2 +1,9 @@
 <h1>Locations Component</h1>
 <a routerLink="/allLocations">[all]</a>
+
+<div class="flip-container" *ngFor="let pic of photos">
+    <div class="flipper">
+        <img class="front" src="{{pic.pic}}" alt="picture" />
+        <div class="back"> <p>details details</p> </div>
+    </div>
+</div>

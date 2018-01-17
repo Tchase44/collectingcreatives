@@ -1,12 +1,12 @@
 /* carosel goes here */
- header{
+.upper{
   width:100%;
   height: 300px;
-  background:#ab3;
+  /* background:#ab3; */
 }
 /* grid parent container below header */
 #gridBody{
-  margin:0;
+  margin: 20px auto;
   padding:0;
   width: 100vw;
   display: grid;
@@ -18,4 +18,5 @@
 .box{
   height:150px;
   box-sizing: border-box;
+  border: 1px solid black;
 } 

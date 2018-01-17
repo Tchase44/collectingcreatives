@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Photos } from '../mock-images';
+// import { NgForOf } from '@angular/common';
 
 @Component({
   selector: 'app-locations',
@@ -6,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./locations.component.css']
 })
 export class LocationsComponent implements OnInit {
-
+  photos = Photos;
   constructor() { }
 
   ngOnInit() {
