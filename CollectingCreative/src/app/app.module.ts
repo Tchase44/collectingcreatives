@@ -1,6 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { BrowserAnimationModule } from '@angular/platform-browser/animations';
 
 import { AppComponent } from './app.component';
 import { LocationsComponent } from './locations/locations.component';
@@ -16,6 +17,7 @@ import { VideoItemComponent } from './Videos/video-item/video-item.component';
 import { VideoEditComponent } from './Videos/video-edit/video-edit.component';
 import { HeaderComponent } from './header/header.component';
 import { AppearancesComponent } from './appearances/appearances.component';
+import { Browser } from 'selenium-webdriver';
 // ng g module app-routing --flat --module=app
 
 
@@ -37,6 +39,7 @@ import { AppearancesComponent } from './appearances/appearances.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
+    BrowserAnimationModule
   ],
   providers: [],
   bootstrap: [AppComponent]

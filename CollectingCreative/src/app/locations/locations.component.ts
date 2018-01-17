@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { trigger, style, animate, transition } from '@angular/animations';
 import { Photos } from '../mock-images';
 // import { NgForOf } from '@angular/common';
 
