@@ -6,10 +6,12 @@ import { Photos } from '../mock-images';
 @Component({
   selector: 'app-locations',
   templateUrl: './locations.component.html',
-  styleUrls: ['./locations.component.css']
+  styleUrls: ['./locations.component.css'],
+  animations: []
 })
 export class LocationsComponent implements OnInit {
   photos = Photos;
+
   constructor() { }
 
   ngOnInit() {

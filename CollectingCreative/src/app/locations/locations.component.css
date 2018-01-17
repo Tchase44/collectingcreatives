@@ -24,7 +24,6 @@ h1{
 /* entire container, keeps perspective */
 .flip-container {
 	/* perspective: 1000px; */
-	background: #555;
 }
 
 /* aspect ratio fixed at 16:9 */
@@ -67,11 +66,13 @@ h1{
 	z-index: 2;
 	/* for firefox 31 */
 	transform: rotateY(0deg);
+	background: rgb(53, 50, 50);
 }
 
 /* back, initially hidden pane */
 .back {
 	transform: rotateY(180deg);
+	background: #666;
 }
 .back p {
 	text-align: center;
