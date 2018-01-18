@@ -1,3 +1,17 @@
-<p>
-  appearances works!
-</p>
+<div>
+  <div class="allbutton">
+    <a routerLink="/appearancegallary" role="button">&#9946; Gallary</a>
+  </div>
+  <h1>Appearances</h1>
+</div>
+
+<div class="appear-container" *ngFor="let pic of photos">
+  <div class="flip-container">
+    <div class="flipper">
+      <img class="front" src="{{pic.pic}}" alt="picture" />
+      <div class="back">
+        <p>details details</p>
+      </div>
+    </div>
+  </div>
+</div>

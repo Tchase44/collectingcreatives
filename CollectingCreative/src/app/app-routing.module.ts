@@ -11,6 +11,7 @@ import { HomeComponent } from './home/home.component';
 import { AppearancesComponent } from './appearances/appearances.component';
 import { VideosComponent } from './videos/videos.component';
 import { VideoListComponent } from './Videos/video-list/video-list.component';
+import { AppearancesAllComponent } from './appearances-all/appearances-all.component';
 
 
 const routes: Routes = [
@@ -19,7 +20,7 @@ const routes: Routes = [
   { path: 'locations', component: LocationsComponent },
   { path: 'allLocations', component: LocationsAllComponent },
   { path: 'appearances', component: AppearancesComponent },
-  // {path: 'allappearances', component:},
+  { path: 'appearancegallary', component: AppearancesAllComponent},
   { path: 'videos', component: VideosComponent },
   { path: 'allvideos', component: VideoListComponent }
 ];
