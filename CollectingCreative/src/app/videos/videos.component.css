@@ -1,0 +1,16 @@
+*{
+    color: #fff;
+    box-sizing: border-box;
+    display: block;
+}
+.item-container{
+    min-width: 302px;
+}
+.vid-box{
+    padding: 0;
+    width: 100%;
+}
+video{
+    border: 1px solid rgb(192, 17, 17);
+    width: 100%;
+}

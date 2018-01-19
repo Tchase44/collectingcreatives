@@ -1,5 +1,10 @@
 <div class="container">
   <div class="row">
-    
+  </div>
+  <div class="item-container" *ngFor="let vid of vids">
+    <div class="vid-box">
+      <video src=""></video>
+    </div>
+    <div>{{vid.link}}, Name: {{vid.name}}, Description; {{vid.description}}</div>
   </div>
 </div>
