@@ -1,6 +1,6 @@
 .linkContainer{
     width: 100%;
-    margin: 31vh auto 0 auto;
+    margin: 26vh auto 0 auto;
     display: grid;
     grid-gap: 5px;
     grid-template-columns: 1fr 1fr 1fr;
