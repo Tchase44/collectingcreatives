@@ -9,15 +9,6 @@ h1{
 	top: -40px;
 	left: 37px;
 }
-.photo-container{
-	width: 100%;
-	box-sizing: border-box;
-	margin: 0 auto 25px auto;
-	padding: 2px;
-	border-style: solid;
-	border-color: ghostwhite;
-	border-width: .1px;
-}
 
 /* This is for the flip animations. */
 .flip-container, .front, .back, {
