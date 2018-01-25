@@ -18,7 +18,9 @@ import { HeaderComponent } from './header/header.component';
 import { AppearancesComponent } from './appearances/appearances.component';
 import { Browser } from 'selenium-webdriver';
 import { AppearancesAllComponent } from './appearances-all/appearances-all.component';
-
+import { CloudinaryModule } from '@cloudinary/angular-5.x';
+import { Cloudinary } from '@cloudinary/angular-5.x/src/cloudinary.service';
+import { environment } from '../environments/environment';
 
 @NgModule({
   declarations: [
@@ -38,7 +40,12 @@ import { AppearancesAllComponent } from './appearances-all/appearances-all.compo
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    CloudinaryModule.forRoot(Cloudinary, {
+      cloud_name: environment.cloud_name,
+      api_key: environment.api_key,
+      api_secret: environment.api_secret
+    })
   ],
   providers: [],
   bootstrap: [AppComponent]

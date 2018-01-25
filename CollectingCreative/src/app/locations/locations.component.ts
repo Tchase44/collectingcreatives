@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { trigger, style, animate, transition } from '@angular/animations';
 import { Photos } from '../mock-images';
-// import { NgForOf } from '@angular/common';
+import { Cloudinary } from '@cloudinary/angular-5.x';
 
 @Component({
   selector: 'app-locations',
@@ -12,7 +12,10 @@ import { Photos } from '../mock-images';
 export class LocationsComponent implements OnInit {
   photos = Photos;
 
-  constructor() { }
+  // constructor() { }
+  constructor(private cloudinary: Cloudinary) {
+    console.log(cloudinary.cloudinaryInstance.image('sample'));
+  }
 
   ngOnInit() {
   }
