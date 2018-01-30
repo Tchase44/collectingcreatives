@@ -1,25 +1,47 @@
-.linkContainer{
-    width: 100%;
-    margin: 26vh auto 0 auto;
-    display: grid;
-    grid-gap: 5px;
-    grid-template-columns: 1fr 1fr 1fr;
-}
-.links{
-    font-size: 55px;
-    text-align: center;
-    padding: 30px;
-    /* display: inline-block; */
-}
+        .linkContainer {
+            width: 100%;
+            margin: 14vh auto 0 auto;
+            display: grid;
+            grid-gap: 5px;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-areas: "space arts space2" "locale cc appear" "TimRules vis BaoSucks"
+        }
 
-@media screen and (max-width:915px){
-    .linkContainer{
-        margin: 0 auto;
-        grid-template-columns: 1fr;
-        grid-template-rows: 33vh 33vh 33vh;
-    }
-    .links{
-        margin: 0 auto;
-        width: 100%;
-    }
-}
+        .loc {
+            grid-area: locale;
+        }
+
+        .app {
+            grid-area: appear;
+        }
+
+        .vid {
+            grid-area: vis;
+        }
+
+        .art {
+            grid-area: arts;
+        }
+
+        .cc {
+            grid-area: cc;
+        }
+
+        .links {
+            font-size: 55px;
+            text-align: center;
+            padding: 30px;
+            /* display: inline-block; */
+        }
+
+        @media screen and (max-width:730px) {
+            .linkContainer {
+                margin: 0 auto;
+                grid-template-columns: 1fr;
+                grid-template-rows: 33vh 33vh 33vh;
+            }
+            .links {
+                margin: 0 auto;
+                width: 100%;
+            }
+        }
