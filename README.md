@@ -1,13 +1,12 @@
 #CollectingCreatives
 
-~~ Creating a base template for a client website concerning photo/video features. ~~
+- Collecting Creatives is a photo/video content managment admin panel being setup for clients.
 
-jan. 15th 
+----------------------------------------------------------------
 
--------------------------------------------------------------------------------------
+~ As of of Jan 30th. 
 
-//Bao pham
-
-- Creating base template for a client website concerning video and photo features.
-
--------------------------------------------------------------------------------------
+- Angular Routing has been setup.
+- Skeleton website has been layed out.
+- Testing for back end image and cloudinary for JSON return is successful.
+- Working mobile responsive adjustments for templating.
