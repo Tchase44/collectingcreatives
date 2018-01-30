@@ -19,6 +19,7 @@ import { HeaderComponent } from './header/header.component';
 import { AppearancesComponent } from './appearances/appearances.component';
 import { Browser } from 'selenium-webdriver';
 import { AppearancesAllComponent } from './appearances-all/appearances-all.component';
+import { AboutComponent } from './home/about/about.component';
 
 
 @NgModule({
@@ -34,7 +35,8 @@ import { AppearancesAllComponent } from './appearances-all/appearances-all.compo
     VideoEditComponent,
     HeaderComponent,
     AppearancesComponent,
-    AppearancesAllComponent
+    AppearancesAllComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,

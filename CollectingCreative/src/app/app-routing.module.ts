@@ -12,11 +12,13 @@ import { AppearancesComponent } from './appearances/appearances.component';
 import { VideosComponent } from './videos/videos.component';
 import { VideoListComponent } from './Videos/video-list/video-list.component';
 import { AppearancesAllComponent } from './appearances-all/appearances-all.component';
+import { AboutComponent } from './home/about/about.component';
 
 
 const routes: Routes = [
   { path: '', redirectTo: 'home', pathMatch: 'full' },
   { path: 'home', component: HomeComponent },
+  { path: 'about', component: AboutComponent },
   { path: 'locations', component: LocationsComponent },
   { path: 'allLocations', component: LocationsAllComponent },
   { path: 'appearances', component: AppearancesComponent },
