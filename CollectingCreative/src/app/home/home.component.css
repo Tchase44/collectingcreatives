@@ -33,8 +33,9 @@
             padding: 30px;
             /* display: inline-block; */
         }
-
-        @media screen and (max-width:730px) {
+        /* I put it at 370 because that is one of the lowest
+        width of the smart phones with displays */
+        @media screen and (max-width:370px) {
             .linkContainer {
                 margin: 0 auto;
                 grid-template-columns: 1fr;
