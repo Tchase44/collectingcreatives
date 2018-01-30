@@ -35,19 +35,29 @@
         }
         /* I put it at 370 because that is one of the lowest
         width of the smart phones with displays */
+
         @media screen and (max-width:370px) {
             .linkContainer {
                 margin: 0 auto;
                 grid-template-columns: 1fr;
                 grid-template-rows: 20vh 20vh 20vh 20vh 20vh;
-                grid-template-areas: "cc"
-                                     "appear"
-                                     "locale"
-                                     "vis"
-                                     "arts"
+                grid-template-areas: "cc" "appear" "locale" "vis" "arts"
             }
             .links {
                 margin: 0 auto;
+                width: 100%;
+            }
+        }
+
+        @media only screen and (max-width: 370) {
+            .linkContainer,
+            .links,
+            .loc,
+            .app,
+            .vid,
+            .art,
+            .cc,
+            {
                 width: 100%;
             }
         }
