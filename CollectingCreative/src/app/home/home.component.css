@@ -1,22 +1,45 @@
 .linkContainer{
     width: 100%;
-    margin: 26vh auto 0 auto;
+    margin: 14vh auto 0 auto;
     display: grid;
     grid-gap: 5px;
     grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "space arts space2"
+                         "locale cc appear"
+                         "TimRules vis BaoSucks"
+}
+.loc{
+    grid-area: locale;
+}
+.app{
+    grid-area: appear;
+}
+.vid{
+    grid-area: vis;
+}
+.art{
+    grid-area: arts;
+}
+.cc{
+    grid-area: cc;
 }
 .links{
-    font-size: 55px;
+    font-size: 300%;
     text-align: center;
     padding: 30px;
     /* display: inline-block; */
 }
 
-@media screen and (max-width:915px){
+@media screen and (max-width: 714px){
     .linkContainer{
         margin: 0 auto;
         grid-template-columns: 1fr;
-        grid-template-rows: 33vh 33vh 33vh;
+        grid-template-rows: 20vh 20vh 20vh 20vh 20vh;
+        grid-template-areas: "cc"
+                             "appear"
+                             "locale"
+                             "vis"
+                             "arts";
     }
     .links{
         margin: 0 auto;

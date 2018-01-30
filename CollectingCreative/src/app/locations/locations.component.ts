@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { trigger, style, animate, transition } from '@angular/animations';
 import { Photos } from '../mock-images';
 // import { NgForOf } from '@angular/common';
+import { Http, Response, RequestOptions, Headers } from '@angular/http';
 
 @Component({
   selector: 'app-locations',
@@ -11,8 +12,10 @@ import { Photos } from '../mock-images';
 })
 export class LocationsComponent implements OnInit {
   photos = Photos;
+  baseurl = 'http://localhost:8000/';
+  constructor(private http: Http) {
 
-  constructor() { }
+  }
 
   ngOnInit() {
   }
