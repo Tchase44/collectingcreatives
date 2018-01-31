@@ -1,63 +1,70 @@
-        .linkContainer {
-            width: 100%;
-            margin: 14vh auto 0 auto;
-            display: grid;
-            grid-gap: 5px;
-            grid-template-columns: 1fr 1fr 1fr;
-            grid-template-areas: "space arts space2" "locale cc appear" "TimRules vis BaoSucks"
-        }
+.linkContainer {
+    width: 100%;
+    margin: 14vh auto 0 auto;
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "space arts space2" "locale cc appear" "TimRules vis BaoSucks"
+}
 
-        .loc {
-            grid-area: locale;
-        }
+.loc {
+    grid-area: locale;
+}
 
-        .app {
-            grid-area: appear;
-        }
+.app {
+    grid-area: appear;
+}
 
-        .vid {
-            grid-area: vis;
-        }
+.vid {
+    grid-area: vis;
+    background-image: url(http://img44.laughinggif.com/pic/HTTP3d3dy54cGFuZHByb2R1Y3Rpb25zLmNvLnVrL2ltZy9maWxtLXJlZWwuZ2lm.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:35%;
+}
 
-        .art {
-            grid-area: arts;
-        }
+.art {
+    grid-area: arts;
+}
 
-        .cc {
-            grid-area: cc;
-        }
+.cc {
+    grid-area: cc;
+}
 
-        .links {
-            font-size: 55px;
-            text-align: center;
-            padding: 30px;
-            /* display: inline-block; */
-        }
-        /* I put it at 370 because that is one of the lowest
+.links {
+    font-size: 55px;
+    color: #20dcfa;
+    text-shadow: 0px 0px 20px black;
+    text-align: center;
+    padding: 30px;
+    /* display: inline-block; */
+}
+/* I put it at 370 because that is one of the lowest
         width of the smart phones with displays */
-
-        @media screen and (max-width:370px) {
-            .linkContainer {
-                margin: 0 auto;
-                grid-template-columns: 1fr;
-                grid-template-rows: 20vh 20vh 20vh 20vh 20vh;
-                grid-template-areas: "cc" "appear" "locale" "vis" "arts"
-            }
-            .links {
-                margin: 0 auto;
-                width: 100%;
-            }
-        }
-
-        @media only screen and (max-width: 370) {
-            .linkContainer,
-            .links,
-            .loc,
-            .app,
-            .vid,
-            .art,
-            .cc,
-            {
-                width: 100%;
-            }
-        }
+/* ****************************************************** */
+/* yes but we can use a mobile display on larger screens */
+/* **************************************************** */
+/* unless you want unique displays for sm,md,lg phones,sm/md/lg tables, and desktop */
+@media screen and (max-width:700px) {
+    .linkContainer {
+        margin: 0 auto;
+        grid-template-columns: 1fr;
+        grid-template-rows: 20vh 20vh 20vh 20vh 20vh;
+        grid-gap: 10px;
+        grid-template-areas: "cc"
+                             "appear"
+                             "locale"
+                             "vis"
+                             "arts";
+    }
+    .links {
+        margin: 0 auto;
+        width: 100%;
+    }
+    .cc{
+        font-size: 261%;
+    }
+    .vid{
+        background-position: top;
+    }
+}
