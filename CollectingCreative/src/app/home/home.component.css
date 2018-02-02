@@ -4,7 +4,9 @@
     display: grid;
     grid-gap: 5px;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-areas: "space arts space2" "locale cc appear" "TimRules vis BaoSucks"
+    grid-template-areas: "space arts space2" "locale cc appear" "TimRules vis BaoSucks";
+
+    font-size: 300%;
 }
 
 .loc {
@@ -32,20 +34,22 @@
 }
 
 .links {
-    font-size: 55px;
+    font-size: 1.2em;
     color: #20dcfa;
     text-shadow: 0px 0px 20px black;
     text-align: center;
     padding: 30px;
     /* display: inline-block; */
 }
-/* I put it at 370 because that is one of the lowest
-        width of the smart phones with displays */
-/* ****************************************************** */
-/* yes but we can use a mobile display on larger screens */
-/* **************************************************** */
-/* unless you want unique displays for sm,md,lg phones,sm/md/lg tables, and desktop */
-@media screen and (max-width:700px) {
+/* most tablets when sideways or desktops */
+@media screen and (max-width: 900px){
+    .linkContainer{
+        margin: 22vh auto 0 auto;
+        font-size: 2em;
+    }
+}
+/* small screens or phones */
+@media (max-width:740px){
     .linkContainer {
         margin: 0 auto;
         grid-template-columns: 1fr;
@@ -56,15 +60,17 @@
                              "locale"
                              "vis"
                              "arts";
+        font-size: 4em;
     }
     .links {
         margin: 0 auto;
         width: 100%;
     }
     .cc{
-        font-size: 261%;
+        font-size: 55px;
     }
     .vid{
-        background-position: top;
+        background-position: bottom;
+        background-size: 20% 90%;
     }
 }
