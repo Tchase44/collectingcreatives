@@ -1,8 +1,9 @@
-#CollectingCreatives
+# CollectingCreatives
 
 - Collecting Creatives is a photo/video content managment admin panel being setup for clients.
 
 ----------------------------------------------------------------
+[![Maintainability](https://api.codeclimate.com/v1/badges/67c95f49fb4f101d55e9/maintainability)](https://codeclimate.com/github/Tchase44/collectingcreatives/maintainability)
 
 ~ As of of Jan 30th. 
 
