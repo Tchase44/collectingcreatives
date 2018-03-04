@@ -1,7 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 import { trigger, style, animate, transition } from '@angular/animations';
 import { Photos } from '../mock-images';
-import { Cloudinary } from '@cloudinary/angular-5.x';
+// import { Cloudinary } from '@cloudinary/angular-5.x';
+import { Http, Response, RequestOptions, Headers } from '@angular/http';
+
 
 @Component({
   selector: 'app-locations',
@@ -11,10 +13,13 @@ import { Cloudinary } from '@cloudinary/angular-5.x';
 })
 export class LocationsComponent implements OnInit {
   photos = Photos;
-
+  testy = null;
+  url = 'http://localhost:8000/getmephotos';
   // constructor() { }
-  constructor(private cloudinary: Cloudinary) {
-    console.log(cloudinary.cloudinaryInstance.image('sample'));
+  constructor(private http: Http) {
+    // this.testy = cloudinary.url('bender_wsjk9q');
+    this.testy = this.http.get(this.url).subscribe(res => this.testy = res.json());
+    // console.log(this.testy)
   }
 
   ngOnInit() {
