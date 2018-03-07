@@ -4,6 +4,11 @@
 
 ----------------------------------------------------------------
 [![Maintainability](https://api.codeclimate.com/v1/badges/67c95f49fb4f101d55e9/maintainability)](https://codeclimate.com/github/Tchase44/collectingcreatives/maintainability)
+~ March Update
+* Started page specific styles
+* Got images to load from cloudinary api
+* Api/server routes need setup
+
 
 ~ As of of Jan 30th. 
 
