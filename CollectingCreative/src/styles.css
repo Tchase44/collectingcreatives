@@ -77,3 +77,6 @@ a:visited {
     border-color: ghostwhite;
     border-width: .1px;
 }
+main{
+    margin-top:-20px;
+}

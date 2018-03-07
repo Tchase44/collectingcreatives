@@ -9,9 +9,10 @@ import { LocationsComponent } from './locations/locations.component';
 import { LocationsAllComponent } from './locations-all/locations-all.component';
 import { HomeComponent } from './home/home.component';
 import { AppearancesComponent } from './appearances/appearances.component';
+import { AppearancesAllComponent } from './appearances-all/appearances-all.component';
 import { VideosComponent } from './videos/videos.component';
 import { VideoListComponent } from './videos/video-list/video-list.component';
-import { AppearancesAllComponent } from './appearances-all/appearances-all.component';
+import { ArtComponent } from "./art/art.component";
 import { AboutComponent } from './home/about/about.component';
 
 
@@ -24,7 +25,8 @@ const routes: Routes = [
   { path: 'appearances', component: AppearancesComponent },
   { path: 'appearancegallary', component: AppearancesAllComponent},
   { path: 'videos', component: VideosComponent },
-  { path: 'allvideos', component: VideoListComponent }
+  { path: 'allvideos', component: VideoListComponent },
+  { path: 'art', component: ArtComponent }
 ];
 
 

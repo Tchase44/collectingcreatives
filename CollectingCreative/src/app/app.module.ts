@@ -20,6 +20,7 @@ import { AppearancesComponent } from './appearances/appearances.component';
 import { Browser } from 'selenium-webdriver';
 import { AppearancesAllComponent } from './appearances-all/appearances-all.component';
 import { AboutComponent } from './home/about/about.component';
+import { ArtComponent } from './art/art.component';
 
 
 @NgModule({
@@ -36,7 +37,8 @@ import { AboutComponent } from './home/about/about.component';
     HeaderComponent,
     AppearancesComponent,
     AppearancesAllComponent,
-    AboutComponent
+    AboutComponent,
+    ArtComponent
   ],
   imports: [
     BrowserModule,

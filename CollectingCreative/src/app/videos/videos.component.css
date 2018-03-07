@@ -3,6 +3,10 @@
     box-sizing: border-box;
     display: block;
 }
+div.videos{
+    width: 100vw;
+    background: #cc3333;
+}
 .item-container{
     min-width: 302px;
 }

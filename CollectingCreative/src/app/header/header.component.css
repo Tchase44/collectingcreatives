@@ -1,5 +1,12 @@
-div {
+div.container {
+    background: #000;
+    width: 100vw;
+    box-sizing: content-box;
     text-align: center;
     font-size: 35px;
-    margin-top: 50px;
+    padding: 20px;
+    /* margin-top: 50px; */
+}
+div.navbar{
+    font-size: 2em;
 }

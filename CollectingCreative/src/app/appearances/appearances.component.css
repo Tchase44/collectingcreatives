@@ -1,7 +1,10 @@
 * {
     color: #fff;
 }
-
+main{
+    width: 100vw;
+    background: #cc99cc;
+}
 div>.allbutton {
     position: fixed;
     top: 0;
