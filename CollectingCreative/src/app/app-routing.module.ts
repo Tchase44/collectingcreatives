@@ -10,7 +10,7 @@ import { LocationsAllComponent } from './locations-all/locations-all.component';
 import { HomeComponent } from './home/home.component';
 import { AppearancesComponent } from './appearances/appearances.component';
 import { VideosComponent } from './videos/videos.component';
-import { VideoListComponent } from './Videos/video-list/video-list.component';
+import { VideoListComponent } from './videos/video-list/video-list.component';
 import { AppearancesAllComponent } from './appearances-all/appearances-all.component';
 import { AboutComponent } from './home/about/about.component';
 

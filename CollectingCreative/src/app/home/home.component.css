@@ -1,6 +1,9 @@
+
 .linkContainer {
-    width: 100%;
-    margin: 14vh auto 0 auto;
+    width: 100vw;
+    height: 100vh;
+    background: #330033;
+    /* padding: 10px; */
     display: grid;
     grid-gap: 5px;
     grid-template-columns: 1fr 1fr 1fr;
@@ -19,10 +22,10 @@
 
 .vid {
     grid-area: vis;
-    background-image: url(http://img44.laughinggif.com/pic/HTTP3d3dy54cGFuZHByb2R1Y3Rpb25zLmNvLnVrL2ltZy9maWxtLXJlZWwuZ2lm.gif);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size:35%;
+    /* background-image: url(http://img44.laughinggif.com/pic/HTTP3d3dy54cGFuZHByb2R1Y3Rpb25zLmNvLnVrL2ltZy9maWxtLXJlZWwuZ2lm.gif); */
+    /* background-position: center; */
+    /* background-repeat: no-repeat; */
+    /* background-size:35%; */
 }
 
 .art {
@@ -34,22 +37,16 @@
 }
 
 .links {
-    font-size: 1.2em;
+    font-size: 1.4em;
     color: #20dcfa;
     text-shadow: 0px 0px 20px black;
     text-align: center;
     padding: 30px;
     /* display: inline-block; */
 }
-/* most tablets when sideways or desktops */
-@media screen and (max-width: 900px){
-    .linkContainer{
-        margin: 22vh auto 0 auto;
-        font-size: 2em;
-    }
-}
+
 /* small screens or phones */
-@media (max-width:740px){
+@media (max-width:900px){
     .linkContainer {
         margin: 0 auto;
         grid-template-columns: 1fr;
