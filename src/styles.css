@@ -56,10 +56,9 @@
 * {
     box-sizing: border-box;
 }
-
-/* body {
-    background-color: rgb(20, 20, 20);
-} */
+html,body,app-root,app-home,router-outlet{
+    box-sizing: content-box;
+}
 
 a,
 a:hover,
@@ -68,15 +67,12 @@ a:visited {
     text-decoration: none;
 }
 
-.item-container {
-    width: 95%;
-    box-sizing: border-box;
-    margin: 0 auto 25px auto;
-    padding: 2px;
-    border-style: solid;
-    border-color: ghostwhite;
-    border-width: .1px;
-}
 main{
     margin-top:-20px;
+}
+@media (max-width:900px){
+    body,html{
+        box-sizing: content-box;
+        /* width: 100vw; */
+    }
 }
